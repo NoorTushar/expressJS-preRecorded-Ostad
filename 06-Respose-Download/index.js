@@ -5,7 +5,7 @@ app.get("/download", (req, res) => {
    res.download("./image/nature.jpg");
 });
 
-const port = 5500;
+const port = 7700;
 
 app.listen(port, () => {
    console.log(`server is running`);
