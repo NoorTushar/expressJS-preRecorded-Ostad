@@ -15,8 +15,8 @@ app.use(bodyParser.json());
  */
 
 app.post("/json", (req, res) => {
-   const jsonHead = req.body;
-   const jsonString = JSON.stringify(jsonHead);
+   const jsonData = req.body;
+   const jsonString = JSON.stringify(jsonData);
 
    res.send(jsonString);
 });
